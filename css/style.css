@@ -64,25 +64,97 @@ nav {
   /* max-width: 100%; */
   /* border: 2px solid blue; */
   flex-wrap: wrap;
-  /* justify-content: space-evenly; */
+  /* Questa appena sotto l'ho scritta dopo aver inserito la stringa 80 che definisce larghezza fissa al div che contiene l'immagine */
+  justify-content: space-evenly;
+  /* Oppure decommenta appena sotto */
+  /* justify-content: flex-start; */
+  /* Valuta se commentare questa appena sotto per avere spazio per titoli */
   align-content: flex-start;
   /* align-content: space-evenly; */
   overflow-y: scroll;
   /* float: left; */
 }
 
-.container.due>.item {
-  width: calc(100% / 6 - 10px);
+
+.container.due>.item1 {
+  /* Commentando questa appena sotto--->> */
+  /* width: calc(100% / 6 - 10px); */
+  /* --->Ho scritto questa appena sotto */
+  width: 180px;
+  height: 180px;
+  /* Credo tu debba inserire le media query per ridimensionare le immagini */
   /* min-width: 200px; */
   /* height: calc/100% / 5 -10px); */
   /* height: 200px; */
   /* border: 1px solid grey; */
   /* background-color: pink; */
   margin: 5px;
+  background-size: cover;
+  background-position: center;
 }
 
- img {
+.container-interno {
+  height: 200px;
+  width: 200px;
+}
+
+.container.due .item1:first-child {
+  background-image: url("../img/metal_lifting.jpg");
+}
+
+.container.due .item1:nth-child(2) {
+  background-image: url("../img/stranger.jpeg");
+}
+
+.container.due .item1:nth-child(3) {
+  background-image: url("../img/aquietplace.jpeg");
+}
+
+.container.due .item1:nth-child(4) {
+  background-image: url("../img/split.jpeg");
+}
+
+.container.due .item1:nth-child(5) {
+  background-image: url("../img/cure.jpeg");
+}
+
+.container.due .item1:nth-child(6) {
+  background-image: url("../img/sinister.jpeg");
+}
+
+.container.due .item1:nth-child(7) {
+  background-image: url("../img/radar.jpeg");
+}
+
+.container.due .item1:nth-child(8) {
+  background-image: url("../img/mixdaily.jpeg");
+}
+
+
+/* .item img {
   width: 100%;
+  border: 1px solid red;
+} */
+
+.play {
+  display: flex;
+  height: 100%;
+}
+
+.item1 .layover1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.item1 .play>img {
+  width: 40%;
+  margin: auto;
+}
+
+.item1:hover .layover1 {
+  display: block;
 }
 
 .item.circle img{
@@ -93,15 +165,49 @@ nav, footer {
   height: 70px;
 }
 
-
 nav {
   background-color: #080B12;
-
 }
 
 footer {
   background-color: #282828;
   position: relative;
   z-index: 100000;
-
 }
+
+
+
+/*-------- MEDIA QUERY --------*/
+
+
+/* md */
+@media screen and (max-width: 1199px) {
+
+  .container.due>.item1 {
+    width: 160px;
+    height: 160px;
+  }
+
+ }
+
+
+ /* sm */
+ @media screen and (max-width: 991px) {
+
+   .container.due>.item1 {
+     width: 140px;
+     height: 140px;
+   }
+
+ }
+
+
+ /* xs */
+ @media screen and (max-width: 768px) {
+
+   .container.due>.item1 {
+     width: 120px;
+     height: 120px;
+   }
+
+ }
