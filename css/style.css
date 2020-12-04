@@ -39,7 +39,6 @@ aside {
 .inner {
   overflow-y: scroll;
   color: white;
-
 }
 
 .logotype {
@@ -53,8 +52,6 @@ aside {
   width: 60%;
   margin: auto 5%;
 }
-
-
 
 nav {
   width: calc(100% - 200px);
@@ -114,7 +111,7 @@ li.underline hr {
   /* background-color: #141922; */
   /* width: 100vw; */
   /* max-width: 100%; */
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   flex-wrap: wrap;
   /* justify-content: space-evenly; */
   /* justify-content: flex-start; */
@@ -122,18 +119,48 @@ li.underline hr {
   /* align-content: space-evenly; */
   /* overflow-y: scroll; */
   /* float: left; */
+  color: white;
+  margin-bottom: 20px;
 }
 
-.container.due .row .item {
+.container.due .row .item-box {
   width: calc(100% / 6 - 10px);
   /* min-width: 200px; */
   /* height: calc/100% / 5 -10px); */
   /* height: 200px; */
-  /* border: 1px solid grey; */
+  border: 1px solid white;
   /* background-color: pink; */
   margin: 5px;
   /* Inserendo il layover devo mettere un position relative nel suo contenitore, cioè qui */
+  /* position: relative; */
+  text-align: center;
+}
+
+.container.due .row .item {
   position: relative;
+}
+
+.row .title {
+  width: 100%;
+  /* color: white; */
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-bottom: 20px;
+}
+
+.row .item-box .playlist-tag {
+  padding: 15px;
+  font-weight: bold;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.row .subtitle {
+  font-size: 0.6em;
+  padding: 5px 0;
+  color: #7d7f84;
+  border: 1px solid green;
 }
 
  img {
@@ -216,7 +243,7 @@ footer {
 /* md */
 @media screen and (max-width: 1199px) {
 
-  .container.due .row .item {
+  .container.due .row .item-box {
     width: calc(100% / 4 - 10px);
  }
 
@@ -224,7 +251,7 @@ footer {
  /* sm */
  @media screen and (max-width: 991px) {
 
-   .container.due .row .item {
+   .container.due .row .item-box {
      width: calc(100% / 2 - 10px);
   }
 
@@ -234,7 +261,7 @@ footer {
  /* xs */
  @media screen and (max-width: 768px) {
 
-   .container.due .row .item {
+   .container.due .row .item-box {
      width: calc(100% / 2 - 10px);
   }
 
