@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  /* font-family: 'Noto Sans JP', sans-serif; */
+}
+
 a {
   text-decoration: inherit;
   color: inherit;
@@ -237,8 +241,6 @@ nav {
 
 footer {
   background-color: #282828;
-  /* position: relative;
-  z-index: 100000; */
   position: fixed;
   bottom: 0;
   right: 0;
@@ -247,6 +249,28 @@ footer {
   width: 100vw;
   /* max-width: 100%; */
 }
+
+footer .listening, footer .volume {
+  border: 1px solid yellow;
+  width: 200px;
+  height: 100%;
+  float: left;
+}
+
+footer .play-bar {
+  border: 1px solid red;
+  width: calc(100% - 400px);
+  height: 100%;
+  float: left;
+}
+
+
+
+
+
+
+
+
 
 
 
