@@ -9,6 +9,10 @@ a {
   color: inherit;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .wrap {
   height: 100vh;
   width: 100vw;
@@ -60,6 +64,19 @@ nav {
   top: 0;
   z-index: 1;
   /* float: right; */
+}
+
+nav input[type="submit"] {
+  color: white;
+  background-color: inherit;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0;
 }
 
 .container.due {
@@ -289,5 +306,5 @@ footer {
   .row .item-box .playlist-tag {
     padding: 10px;
   }
-  
+
  }
