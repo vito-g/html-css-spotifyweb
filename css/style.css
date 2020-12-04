@@ -111,7 +111,7 @@ li.underline hr {
   /* background-color: #141922; */
   /* width: 100vw; */
   /* max-width: 100%; */
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   flex-wrap: wrap;
   /* justify-content: space-evenly; */
   /* justify-content: flex-start; */
@@ -128,7 +128,7 @@ li.underline hr {
   /* min-width: 200px; */
   /* height: calc/100% / 5 -10px); */
   /* height: 200px; */
-  border: 1px solid white;
+  /* border: 1px solid white; */
   /* background-color: pink; */
   margin: 5px;
   /* Inserendo il layover devo mettere un position relative nel suo contenitore, cioè qui */
@@ -153,14 +153,14 @@ li.underline hr {
   padding: 15px;
   font-weight: bold;
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .row .subtitle {
   font-size: 0.6em;
   padding: 5px 0;
   color: #7d7f84;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
  img {
@@ -247,12 +247,29 @@ footer {
     width: calc(100% / 4 - 10px);
  }
 
+  .container.due .row {
+      margin-bottom: 15px;
+  }
+
+  .row .item-box .playlist-tag {
+    padding: 10px;
+  }
+
+}
 
  /* sm */
  @media screen and (max-width: 991px) {
 
    .container.due .row .item-box {
      width: calc(100% / 2 - 10px);
+  }
+
+  .container.due .row {
+      margin-bottom: 10px;
+  }
+
+  .row .item-box .playlist-tag {
+    padding: 10px;
   }
 
  }
@@ -265,4 +282,12 @@ footer {
      width: calc(100% / 2 - 10px);
   }
 
+  .container.due .row {
+      margin-bottom: 10px;
+  }
+
+  .row .item-box .playlist-tag {
+    padding: 10px;
+  }
+  
  }
