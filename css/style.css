@@ -87,14 +87,17 @@ nav input[type="submit"] {
   right: 0;
 }
 
-.container.due {
+.container {
   margin-top: 70px;
   height: calc(100vh - 140px);
+  width: calc(100vw - 200px);
   background-color: #141922;
   overflow-y: scroll;
+  border: 1px solid red;
+  float: left;
 }
 
-.container.due .row.menu {
+.container .row.menu {
   /* border: 1px solid white; */
   height: 70px;
   /* justify-content: center; */
@@ -106,14 +109,14 @@ nav input[type="submit"] {
   color: #7d7f84;
 }
 
-.container.due .row.menu ul li {
+.container .row.menu ul li {
   display: inline-block;
   /* color: white; */
   padding: 10px 5px;
   font-weight: bold;
 }
 
-.container.due .row.menu ul li:hover a {
+.container .row.menu ul li:hover a {
   color: white;
 }
 
@@ -125,7 +128,7 @@ li.underline hr {
   border-radius: 1px;
 }
 
-.container.due .row {
+.container .row {
   display: flex;
   /* border: 2px solid blue; */
   flex-wrap: wrap;
@@ -134,14 +137,14 @@ li.underline hr {
   margin-bottom: 20px;
 }
 
-.container.due .row .item-box {
+.container .row .item-box {
   width: calc(100% / 6 - 10px);
   /* border: 1px solid white; */
   margin: 5px;
   text-align: center;
 }
 
-.container.due .row .item {
+.container .row .item {
   position: relative;
 }
 
@@ -250,11 +253,11 @@ footer .play-bar {
   /* md */
   @media screen and (max-width: 1199px) {
 
-    .container.due .row .item-box {
+    .container .row .item-box {
       width: calc(100% / 4 - 10px);
    }
 
-    .container.due .row {
+    .container .row {
         margin-bottom: 15px;
     }
 
@@ -268,11 +271,11 @@ footer .play-bar {
   /* sm */
   @media screen and (max-width: 991px) {
 
-     .container.due .row .item-box {
+     .container .row .item-box {
        width: calc(100% / 2 - 10px);
     }
 
-    .container.due .row {
+    .container .row {
         margin-bottom: 10px;
     }
 
@@ -286,11 +289,11 @@ footer .play-bar {
   /* xs */
   @media screen and (max-width: 768px) {
 
-     .container.due .row .item-box {
+     .container .row .item-box {
        width: calc(100% / 2 - 10px);
     }
 
-    .container.due .row {
+    .container .row {
         margin-bottom: 10px;
     }
 
