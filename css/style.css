@@ -247,54 +247,56 @@ footer .play-bar {
 /*-------- MEDIA QUERY --------*/
 
 
-/* md */
-@media screen and (max-width: 1199px) {
+  /* md */
+  @media screen and (max-width: 1199px) {
 
-  .container.due .row .item-box {
-    width: calc(100% / 4 - 10px);
- }
+    .container.due .row .item-box {
+      width: calc(100% / 4 - 10px);
+   }
 
-  .container.due .row {
-      margin-bottom: 15px;
+    .container.due .row {
+        margin-bottom: 15px;
+    }
+
+    .row .item-box .playlist-tag {
+      padding: 10px;
+    }
+
   }
+  /* END md */
 
-  .row .item-box .playlist-tag {
-    padding: 10px;
+  /* sm */
+  @media screen and (max-width: 991px) {
+
+     .container.due .row .item-box {
+       width: calc(100% / 2 - 10px);
+    }
+
+    .container.due .row {
+        margin-bottom: 10px;
+    }
+
+    .row .item-box .playlist-tag {
+      padding: 10px;
+    }
+
   }
+  /* END sm */
 
-}
+  /* xs */
+  @media screen and (max-width: 768px) {
 
- /* sm */
- @media screen and (max-width: 991px) {
+     .container.due .row .item-box {
+       width: calc(100% / 2 - 10px);
+    }
 
-   .container.due .row .item-box {
-     width: calc(100% / 2 - 10px);
+    .container.due .row {
+        margin-bottom: 10px;
+    }
+
+    .row .item-box .playlist-tag {
+      padding: 10px;
+    }
+
   }
-
-  .container.due .row {
-      margin-bottom: 10px;
-  }
-
-  .row .item-box .playlist-tag {
-    padding: 10px;
-  }
-
- }
-
-
- /* xs */
- @media screen and (max-width: 768px) {
-
-   .container.due .row .item-box {
-     width: calc(100% / 2 - 10px);
-  }
-
-  .container.due .row {
-      margin-bottom: 10px;
-  }
-
-  .row .item-box .playlist-tag {
-    padding: 10px;
-  }
-
- }
+  /* END xs */
