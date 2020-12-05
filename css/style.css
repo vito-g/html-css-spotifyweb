@@ -93,13 +93,14 @@ nav input[type="submit"] {
   width: calc(100vw - 200px);
   background-color: #141922;
   overflow-y: scroll;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   float: left;
 }
 
 .container .row.menu {
-  /* border: 1px solid white; */
-  height: 70px;
+  /* border: 1px solid green; */
+  padding: 5px;
+  /* height: 70px; */
   /* justify-content: center; */
   justify-content: space-around;
   text-align: center;
