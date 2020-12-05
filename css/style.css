@@ -1,30 +1,18 @@
+/* Class Utility */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  /* font-family: 'Noto Sans JP', sans-serif; */
+.cursor-pointer {
+  cursor: pointer;
 }
 
 a {
   text-decoration: inherit;
   color: inherit;
-}
-
-.cursor-pointer {
-  cursor: pointer;
-}
-
-.wrap {
-  height: 100vh;
-  width: 100vw;
-  background-color: black;
-  /* max-width: 100%; */
-  /* min-height: 100%; */
-  /* display: flex; */
-  font-family: sans-serif;
 }
 
 .clearfix {
@@ -33,27 +21,37 @@ a {
   clear: both;
 }
 
+/* END Class Utility */
+
+body {
+  /* font-family: 'Noto Sans JP', sans-serif; */
+}
+
+.wrap {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  /* max-width: 100%; */
+  /* min-height: 100%; */
+  font-family: sans-serif;
+}
+
+nav, footer {
+  height: 70px;
+}
+
 aside {
   width: 200px;
   /* min-width: 200px; */
   height: calc(100vh - 70px);
   background-color: black;
-  /* border: 10px solid black; */
+  /* border: 1px solid white; */
   float: left;
-  /* overflow-y: scroll; */
-  z-index: -11;
-}
-
-.inner {
-  overflow-y: scroll;
-  color: white;
 }
 
 .logotype {
   height: 70px;
-  /* background-color: grey; */
   display: flex;
-  z-index: -10;
 }
 
 .logotype img {
@@ -61,13 +59,19 @@ aside {
   margin: auto 5%;
 }
 
+aside .inner {
+  overflow-y: scroll;
+  color: white;
+}
+
 nav {
   width: calc(100% - 200px);
+  /* background-color: #080B12; */
+  background-color: rgba(22, 22, 22, 0.7);
   position: fixed;
   right: 0;
   top: 0;
   z-index: 1;
-  /* float: right; */
 }
 
 nav input[type="submit"] {
@@ -121,39 +125,19 @@ li.underline hr {
   border-radius: 1px;
 }
 
-
-
 .container.due .row {
-  /* margin-top: 70px; */
   display: flex;
-  /* Questo sotto, insieme ad overflow hidden, spostato in container due nuovo messo appena sopra */
-  /* height: calc(100vh - 140px); */
-  /* border: 1px solid black; */
-  /* background-color: #141922; */
-  /* width: 100vw; */
-  /* max-width: 100%; */
   /* border: 2px solid blue; */
   flex-wrap: wrap;
-  /* justify-content: space-evenly; */
-  /* justify-content: flex-start; */
   align-content: flex-start;
-  /* align-content: space-evenly; */
-  /* overflow-y: scroll; */
-  /* float: left; */
   color: white;
   margin-bottom: 20px;
 }
 
 .container.due .row .item-box {
   width: calc(100% / 6 - 10px);
-  /* min-width: 200px; */
-  /* height: calc/100% / 5 -10px); */
-  /* height: 200px; */
   /* border: 1px solid white; */
-  /* background-color: pink; */
   margin: 5px;
-  /* Inserendo il layover devo mettere un position relative nel suo contenitore, cioè qui */
-  /* position: relative; */
   text-align: center;
 }
 
@@ -184,9 +168,9 @@ li.underline hr {
   /* border: 1px solid green; */
 }
 
- img {
+.item > img {
   width: 100%;
-  /* background-color: rgba(0, 0, 0, 1); */
+  vertical-align: middle;
 }
 
 /* Inserimento del layover */
@@ -217,26 +201,17 @@ li.underline hr {
 .item:hover .play {
   visibility: visible;
 }
-/* /Inserimento del layover */
 
-.item.circle .layover{
+.item.circle img, .item.circle .layover {
   border-radius: 50%;
+  /* border: 1px solid white; */
 }
 
-.item.circle img{
-  border-radius: 50%;
-}
+/* END Inserimento del layover */
 
 
-
-nav, footer {
-  height: 70px;
-}
-
-
-nav {
-  /* background-color: #080B12; */
-  background-color: rgba(22, 22, 22, 0.7);
+.item.circle img {
+  vertical-align: middle;
 }
 
 footer {
@@ -245,9 +220,7 @@ footer {
   bottom: 0;
   right: 0;
   /* border: 1px solid red; */
-  /* z-index: -1; */
   width: 100vw;
-  /* max-width: 100%; */
 }
 
 footer .listening, footer .volume {
@@ -263,13 +236,6 @@ footer .play-bar {
   height: 100%;
   float: left;
 }
-
-
-
-
-
-
-
 
 
 
