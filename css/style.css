@@ -331,12 +331,13 @@ footer  i {
 
 footer .play-bar .controller i:nth-child(3) {
   font-size: 30px;
-  width: 33px;
+  /* width: 53px; */
   text-align: center;
+  /* border: 1px solid red; */
 }
 
 footer .play-bar .controller i:nth-child(3):hover {
-  font-size: 33px;
+  transform: scale(1.2);
 }
 
 footer .play-bar .timeline-box {
