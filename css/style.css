@@ -278,6 +278,11 @@ footer .listening .listening-right .album-name .hit-name {
   color: #7d7f84;
 }
 
+footer .listening .listening-right .album-name .hit-name:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 footer .listening .listening-right .action i{
   color: #7d7f84;
 }
@@ -316,6 +321,12 @@ footer  i {
 
 footer .play-bar .controller i:nth-child(3) {
   font-size: 30px;
+  width: 33px;
+  text-align: center;
+}
+
+footer .play-bar .controller i:nth-child(3):hover {
+  font-size: 33px;
 }
 
 footer .play-bar .timeline-box {
