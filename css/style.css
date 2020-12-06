@@ -279,7 +279,7 @@ footer .listening .listening-right .action i{
 }
 
 footer .play-bar {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: calc(100% - 400px);
   min-width: 164px;
   height: 100%;
@@ -290,7 +290,7 @@ footer .play-bar {
 }
 
 footer .play-bar .controller, footer .play-bar .timeline-box {
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   height: 50%;
   display: flex;
   width: 60%;
@@ -339,6 +339,10 @@ footer .play-bar .timeline-box .time-left, footer .play-bar .timeline-box .time-
   align-self: center;
   font-size: 0.8em;
   color: #c1c1c1;
+}
+
+footer .play-bar .timeline-box span {
+  font-size: 0.8em;
 }
 
 
