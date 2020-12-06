@@ -362,10 +362,26 @@ footer .fill {
   position: absolute;
   left: 0;
   background-color: #c1c1c1;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+footer .circle-cursor {
+  width: 15px;
+  height: 15px;
+  background-color: #c1c1c1;
+  border-radius: 50%;
+  align-self: center;
+  transform: translate(50% , 0%);
+  display: none;
 }
 
 footer .fill:hover {
   background-color: #ADFF2E;
+}
+
+footer .fill:hover .circle-cursor {
+  display: block;
 }
 
 footer .volume .timeline {
