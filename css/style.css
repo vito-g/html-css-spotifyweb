@@ -246,7 +246,7 @@ footer .listening, footer .volume {
   height: 100%;
   /* float: left; */
   display: flex;
-  align-content: middle;
+  /* align-content: middle; */
 
 }
 
