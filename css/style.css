@@ -228,10 +228,11 @@ footer {
 }
 
 footer .listening, footer .volume {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   width: 200px;
   height: 100%;
   float: left;
+
 }
 
 footer .play-bar {
@@ -241,6 +242,48 @@ footer .play-bar {
   float: left;
 }
 
+footer .listening {
+  display: flex;
+  align-items: center;
+
+}
+
+footer .listening .album-picture {
+  width: 50px;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+}
+
+footer .listening .album-picture img {
+  width: 40px;
+  margin: auto;
+}
+
+.listening-right {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+  width: calc(100% - 50px);
+  padding: 4px;
+}
+
+footer .listening .listening-right .album-name {
+  /* height: 70px; */
+  font-size: 0.5rem;
+  color: white;
+  /* align-self: center; */
+  /* border: 1px solid red; */
+}
+
+footer .listening .listening-right .album-name .hit-name {
+  font-size: 0.8em;
+  color: #7d7f84;
+}
+
+footer .listening .listening-right .action i{
+  color: #7d7f84;
+}
 
 
 
