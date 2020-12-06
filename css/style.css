@@ -344,13 +344,17 @@ footer .timeline {
 }
 
 
-footer .elapsed-time {
+footer .fill {
   width: 20%;
   height: 4px;
   border-radius: 2px;
   position: absolute;
   left: 0;
   background-color: #c1c1c1;
+}
+
+footer .fill:hover {
+  background-color: #ADFF2E;
 }
 
 footer .volume .timeline {
