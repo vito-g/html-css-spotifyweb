@@ -59,6 +59,13 @@ aside {
   margin: auto 5%;
 }
 
+aside .explore {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-color: red;
+}
+
 aside .inner {
   overflow-y: scroll;
   color: white;
