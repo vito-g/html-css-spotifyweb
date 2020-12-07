@@ -66,6 +66,11 @@ aside .explore {
   background-color: red;
 }
 
+aside .explore > * {
+  border: 1px solid white;
+  flex-grow: 1;
+}
+
 aside .inner {
   overflow-y: scroll;
   color: white;
