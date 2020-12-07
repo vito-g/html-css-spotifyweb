@@ -172,9 +172,6 @@ aside .playlist-container .playlist-creator .add-playlist {
   font-size: 25px;
 }
 
-
-
-
 aside .playlist-created {
   overflow-y: scroll;
   color: white;
@@ -241,6 +238,7 @@ aside .playlist-created {
   /* color: white; */
   padding: 10px 5px;
   font-weight: bold;
+  font-size: 0.55rem;
 }
 
 .container .row.menu ul li:hover a {
@@ -288,11 +286,12 @@ li.underline hr {
   padding: 15px;
   font-weight: bold;
   width: 100%;
+  font-size: 0.7rem;
   /* border: 1px solid red; */
 }
 
 .row .subtitle {
-  font-size: 0.6em;
+  font-size: 0.6rem;
   padding: 5px 0;
   color: #7d7f84;
   /* border: 1px solid green; */
