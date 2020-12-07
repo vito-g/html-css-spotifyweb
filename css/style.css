@@ -63,13 +63,51 @@ aside .explore {
   display: flex;
   flex-direction: column;
   height: 100px;
-  background-color: red;
+  /* background-color: red; */
+  /* border: 1px solid white; */
 }
 
 aside .explore > * {
-  border: 1px solid white;
-  flex-grow: 1;
+  /* border: 1px solid white; */
+  /* flex-grow: 1; */
 }
+
+aside .explore .home {
+  display: flex;
+  cursor: pointer;
+}
+
+aside .explore .home:hover .icon-name {
+  color: #d2d2d2;
+}
+
+aside .explore .home .icon {
+  display: flex;
+  width: 40px;
+  border-left: 2px solid #ADFF2E;
+}
+
+aside .explore .icon {
+  display: flex;
+  width: 40px;
+  /* border: 1px solid white; */
+}
+
+aside .explore .icon-name {
+  align-self: center;
+  font-size: 0.7em;
+  color: #7d7f84;
+}
+
+aside .explore .home .icon img {
+  /* border: 1px solid white; */
+  width: 20px;
+  margin: auto;
+}
+
+
+
+
 
 aside .inner {
   overflow-y: scroll;
