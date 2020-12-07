@@ -190,6 +190,8 @@ aside .playlist-container .playlist-creator .add-playlist {
 
 aside .playlist-container .playlist-created {
   overflow-y: scroll;
+  height: 30vh;
+  /* min-height: 10vh; */
   font-size: 0.7em;
   color: #7d7f84;
   /* border: 1px solid red; */
