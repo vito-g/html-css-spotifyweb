@@ -69,15 +69,25 @@ aside .explore {
 
 aside .explore > * {
   /* border: 1px solid white; */
-  /* flex-grow: 1; */
+  flex-grow: 1;
+
 }
 
-aside .explore .home {
+/* .icon img {
+  border: 1px solid white;
+} */
+
+/* aside .explore .home, aside .explore .search, aside .explore .library {
+  display: flex;
+  cursor: pointer;
+} */
+
+aside .explore > * {
   display: flex;
   cursor: pointer;
 }
 
-aside .explore .home:hover .icon-name {
+aside .explore>div:hover .icon-name {
   color: #d2d2d2;
 }
 
@@ -85,21 +95,33 @@ aside .explore .home .icon {
   display: flex;
   width: 40px;
   border-left: 2px solid #ADFF2E;
+
 }
 
-aside .explore .icon {
+aside .explore .search .icon, aside .explore .library .icon {
   display: flex;
   width: 40px;
-  /* border: 1px solid white; */
+  margin-left: 1px;
 }
 
-aside .explore .icon-name {
+/* aside .explore .library .icon {
+  display: flex;
+  width: 40px;
+} */
+
+aside .explore .home .icon-name {
   align-self: center;
   font-size: 0.7em;
   color: #7d7f84;
 }
 
-aside .explore .home .icon img {
+aside .explore .search .icon-name, aside .explore .library .icon-name {
+  align-self: center;
+  font-size: 0.7em;
+  color: #7d7f84;
+}
+
+aside .explore .icon img {
   /* border: 1px solid white; */
   width: 20px;
   margin: auto;
