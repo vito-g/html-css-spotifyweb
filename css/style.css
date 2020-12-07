@@ -75,6 +75,10 @@ aside .explore > * {
 
 /* .icon img {
   border: 1px solid white;
+}
+
+.icon {
+  border: 1px solid grey;
 } */
 
 /* aside .explore .home, aside .explore .search, aside .explore .library {
@@ -127,11 +131,51 @@ aside .explore .icon img {
   margin: auto;
 }
 
+aside .playlist-container {
+  padding: 11px 0 0 11px;
+}
+
+aside .playlist-container .title {
+  color: white;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+aside .playlist-container .playlist-creator {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+aside .playlist-container .playlist-creator:hover .add-playlist {
+  background-color: white
+}
+
+aside .playlist-container .playlist-creator:hover span {
+  color: white;
+}
+
+aside .playlist-container .playlist-creator span{
+  font-size: 0.7em;
+  color: #7d7f84;
+  margin-left: 10px;
+}
+
+
+
+aside .playlist-container .playlist-creator .add-playlist {
+  background-color: #a3a3a3;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+}
 
 
 
 
-aside .inner {
+aside .playlist-created {
   overflow-y: scroll;
   color: white;
 }
