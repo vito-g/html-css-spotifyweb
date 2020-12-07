@@ -47,6 +47,17 @@ aside {
   background-color: black;
   /* border: 1px solid white; */
   float: left;
+  position: relative;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  /* align-content: space-between; */
+  justify-content: space-between;
+}
+
+aside .aside-top {
+  /* background-color: grey; */
+  /* border: 1px solid orange; */
 }
 
 .logotype {
@@ -99,7 +110,6 @@ aside .explore .home .icon {
   display: flex;
   width: 40px;
   border-left: 2px solid #ADFF2E;
-
 }
 
 aside .explore .search .icon, aside .explore .library .icon {
@@ -119,6 +129,8 @@ aside .explore .home .icon-name {
   color: #7d7f84;
 }
 
+
+
 aside .explore .search .icon-name, aside .explore .library .icon-name {
   align-self: center;
   font-size: 0.7em;
@@ -133,6 +145,11 @@ aside .explore .icon img {
 
 aside .playlist-container {
   padding: 11px 0 0 11px;
+  /* border: 1px solid grey; */
+  /* display: flex;
+  flex-direction: column;
+  align-content: space-between; */
+  /* height: 100%; */
 }
 
 aside .playlist-container .title {
@@ -145,14 +162,11 @@ aside .playlist-container .playlist-creator {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  /* border: 1px solid blue; */
 }
 
 aside .playlist-container .playlist-creator:hover .add-playlist {
   background-color: white
-}
-
-aside .playlist-container .playlist-creator:hover span {
-  color: white;
 }
 
 aside .playlist-container .playlist-creator span{
@@ -161,7 +175,9 @@ aside .playlist-container .playlist-creator span{
   margin-left: 10px;
 }
 
-
+aside .playlist-container .playlist-creator:hover span {
+  color: white;
+}
 
 aside .playlist-container .playlist-creator .add-playlist {
   background-color: #a3a3a3;
@@ -172,9 +188,80 @@ aside .playlist-container .playlist-creator .add-playlist {
   font-size: 25px;
 }
 
-aside .playlist-created {
+aside .playlist-container .playlist-created {
   overflow-y: scroll;
+  font-size: 0.7em;
+  color: #7d7f84;
+  /* border: 1px solid red; */
+}
+
+aside .playlist-container .playlist-created ul li {
+  padding-bottom: 15px;
+}
+
+aside .aside-bottom {
+  padding: 0 11px;
+  /* border: 1px solid yellow; */
+  /* background-color: red; */
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+aside .aside-bottom > * {
+  flex-grow: 1;
+  /* border: 1px solid white; */
+  /* background-color: red; */
+}
+
+aside .aside-bottom .install {
+  border-bottom: 1px solid #7d7f84;
+}
+
+aside .aside-bottom .install, aside .aside-bottom .john-doe {
+  /* height: 70px; */
+  /* width: 100%; */
+
+  /* border: 1px solid white; */
+  color: #7d7f84;
+  /* padding-left: 11px; */
+  display: flex;
+
+  /* position: absolute;
+  bottom: 0;
+  left: 0; */
+}
+
+aside .aside-bottom .install .icon, aside .aside-bottom .john-doe .icon {
+  /* display: flex; */
+  width: 20px;
+  text-align: center;
+  line-height: 30px;
+  /* margin-left: 1px; */
+  /* border: 1px solid white; */
+}
+
+aside .aside-bottom .john-doe .icon {
+  font-size: 25px;
+}
+
+aside .aside-bottom .install .icon-name {
+  align-self: center;
+  font-size: 0.7em;
+  color: #7d7f84;
+  margin-left: 5px;
+}
+
+aside .aside-bottom .john-doe {
+  /* color: white; */
+  /* font-size: 0.7rem; */
+}
+
+aside .aside-bottom .john-doe .icon-name {
   color: white;
+  font-size: 0.7rem;
+  margin-left: 5px;
+  align-self: center;
 }
 
 .upgrade {
