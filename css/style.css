@@ -197,6 +197,11 @@ aside .playlist-container .playlist-created {
 
 aside .playlist-container .playlist-created ul li {
   padding-bottom: 15px;
+  cursor: pointer;
+}
+
+aside .playlist-container .playlist-created ul li:hover {
+ color: white;
 }
 
 aside .aside-bottom {
@@ -216,6 +221,10 @@ aside .aside-bottom > * {
 
 aside .aside-bottom .install {
   border-bottom: 1px solid #7d7f84;
+}
+
+aside .aside-bottom .install:hover .icon, aside .aside-bottom .install:hover .icon-name {
+  color: white;
 }
 
 aside .aside-bottom .install, aside .aside-bottom .john-doe {
