@@ -254,6 +254,7 @@ aside .aside-bottom .john-doe {
 aside .aside-bottom .john-doe .icon-name {
   color: white;
   font-size: 0.7rem;
+  font-weight: bold;
   margin-left: 5px;
   align-self: center;
 }
