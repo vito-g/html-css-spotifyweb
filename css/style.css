@@ -101,10 +101,6 @@ aside .explore > * {
   cursor: pointer;
 }
 
-aside .explore>div:hover .icon-name {
-  color: #d2d2d2;
-}
-
 aside .explore .home .icon {
   display: flex;
   width: 40px;
@@ -117,16 +113,31 @@ aside .explore .search .icon, aside .explore .library .icon {
   margin-left: 1px;
 }
 
+aside .icon-name {
+  display: block;
+}
+
 aside .explore .home .icon-name {
   align-self: center;
   font-size: 0.7em;
-  color: #7d7f84;
+  /* color: #7d7f84; */
+  color: #d2d2d2;
+  font-weight: bold;
 }
 
 aside .explore .search .icon-name, aside .explore .library .icon-name {
   align-self: center;
   font-size: 0.7em;
   color: #7d7f84;
+}
+
+
+aside .explore>div:hover .icon-name {
+  color: #d2d2d2;
+}
+
+aside .explore .home:hover .icon-name {
+  color: white;
 }
 
 aside .explore .icon img {
@@ -137,6 +148,7 @@ aside .explore .icon img {
 
 aside .playlist-container {
   padding: 11px 0 0 11px;
+  display: block;
 }
 
 aside .playlist-container .title {
@@ -638,6 +650,38 @@ footer .play-bar .timeline-box span {
 
     .visibility {
       display: block;
+    }
+
+    aside {
+      width: auto;
+    }
+
+    aside .icon-name, aside .playlist-container {
+      display: none;
+    }
+
+    /* aside .playlist-container {
+      display: none;
+    } */
+
+    aside .aside-bottom .install {
+      border: none;
+    }
+
+    .upgrade {
+      width: calc(100% - 42px);
+      left: 42px;
+      /* border: 1px solid red; */
+    }
+
+    .container {
+      margin-top: 70px;
+      height: calc(100vh - 140px);
+      width: calc(100% - 42px);
+      background-color: #141922;
+      overflow-y: scroll;
+      /* border: 1px solid red; */
+      float: left;
     }
 
   }
