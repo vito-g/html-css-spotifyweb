@@ -21,6 +21,10 @@ a {
   clear: both;
 }
 
+.visibility {
+  display: none;
+}
+
 /* END Class Utility */
 
 body {
@@ -63,9 +67,21 @@ aside .aside-top {
   display: flex;
 }
 
-.logotype img {
+.logotype>img {
   width: 60%;
   margin: auto 5%;
+  display: block;
+}
+
+.logotype .logo-small {
+  display: flex;
+  width: 40px;
+  margin: 5px 0 5px 1px;
+}
+
+.logotype .logo-small img {
+  width: 20px;
+  margin: auto;
 }
 
 aside .explore {
@@ -598,7 +614,7 @@ footer .play-bar .timeline-box span {
   /* END sm */
 
   /* xs */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
 
      .container .row .item-box {
        width: calc(100% / 2 - 10px);
@@ -610,6 +626,18 @@ footer .play-bar .timeline-box span {
 
     .row .item-box .playlist-tag {
       padding: 10px;
+    }
+
+    .logotype {
+      height: auto;
+    }
+
+    .logotype>img {
+      display: none;
+    }
+
+    .visibility {
+      display: block;
     }
 
   }
