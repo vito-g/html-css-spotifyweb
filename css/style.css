@@ -675,13 +675,13 @@ footer .play-bar .timeline-box span {
     }
 
     .container {
-      margin-top: 70px;
-      height: calc(100vh - 140px);
+      /* margin-top: 70px;
+      height: calc(100vh - 140px); */
       width: calc(100% - 42px);
-      background-color: #141922;
-      overflow-y: scroll;
+      /* background-color: #141922;
+      overflow-y: scroll; */
       /* border: 1px solid red; */
-      float: left;
+      /* float: left; */
     }
 
   }
