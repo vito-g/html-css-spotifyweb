@@ -590,7 +590,7 @@ footer .play-bar .timeline-box span {
 
 
   /* md */
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 1200px) {
 
     .container .row .item-box {
       width: calc(100% / 4 - 10px);
@@ -608,7 +608,7 @@ footer .play-bar .timeline-box span {
   /* END md */
 
   /* sm */
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 992px) {
 
     .container .row .item-box {
       width: calc(100% / 2 - 10px);
@@ -626,7 +626,7 @@ footer .play-bar .timeline-box span {
   /* END sm */
 
   /* xs */
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
 
     .container .row .item-box {
       width: calc(100% / 2 - 10px);
