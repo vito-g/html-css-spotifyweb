@@ -32,7 +32,6 @@ body {
   width: 100vw;
   background-color: black;
   max-width: 100%;
-  /* min-height: 100%; */
   font-family: sans-serif;
 }
 
@@ -51,7 +50,6 @@ aside {
   /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
-  /* align-content: space-between; */
   justify-content: space-between;
 }
 
@@ -74,28 +72,13 @@ aside .explore {
   display: flex;
   flex-direction: column;
   height: 100px;
-  /* background-color: red; */
   /* border: 1px solid white; */
 }
 
 aside .explore > * {
   /* border: 1px solid white; */
   flex-grow: 1;
-
 }
-
-/* .icon img {
-  border: 1px solid white;
-}
-
-.icon {
-  border: 1px solid grey;
-} */
-
-/* aside .explore .home, aside .explore .search, aside .explore .library {
-  display: flex;
-  cursor: pointer;
-} */
 
 aside .explore > * {
   display: flex;
@@ -118,18 +101,11 @@ aside .explore .search .icon, aside .explore .library .icon {
   margin-left: 1px;
 }
 
-/* aside .explore .library .icon {
-  display: flex;
-  width: 40px;
-} */
-
 aside .explore .home .icon-name {
   align-self: center;
   font-size: 0.7em;
   color: #7d7f84;
 }
-
-
 
 aside .explore .search .icon-name, aside .explore .library .icon-name {
   align-self: center;
@@ -145,11 +121,6 @@ aside .explore .icon img {
 
 aside .playlist-container {
   padding: 11px 0 0 11px;
-  /* border: 1px solid grey; */
-  /* display: flex;
-  flex-direction: column;
-  align-content: space-between; */
-  /* height: 100%; */
 }
 
 aside .playlist-container .title {
@@ -230,26 +201,14 @@ aside .aside-bottom .install:hover .icon, aside .aside-bottom .install:hover .ic
 }
 
 aside .aside-bottom .install, aside .aside-bottom .john-doe {
-  /* height: 70px; */
-  /* width: 100%; */
-
-  /* border: 1px solid white; */
   color: #7d7f84;
-  /* padding-left: 11px; */
   display: flex;
-
-  /* position: absolute;
-  bottom: 0;
-  left: 0; */
 }
 
 aside .aside-bottom .install .icon, aside .aside-bottom .john-doe .icon {
-  /* display: flex; */
   width: 20px;
   text-align: center;
   line-height: 30px;
-  /* margin-left: 1px; */
-  /* border: 1px solid white; */
 }
 
 aside .aside-bottom .john-doe .icon {
@@ -297,10 +256,6 @@ aside .aside-bottom .john-doe .icon-name {
   border-radius: 20px;
   height: 37.6px;
   align-self: center;
-  /* position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  right: 5px; */
 }
 
 .upgrade input[type="submit"]:hover {
@@ -319,10 +274,7 @@ aside .aside-bottom .john-doe .icon-name {
 }
 
 .container .row.menu {
-  /* border: 1px solid green; */
   padding: 5px;
-  /* height: 70px; */
-  /* justify-content: center; */
   justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
@@ -448,7 +400,6 @@ footer {
   right: 0;
   /* border: 1px solid red; */
   width: 100%;
-  /* min-width: 564px; */
   display: flex;
 }
 
@@ -457,10 +408,7 @@ footer .listening, footer .volume {
   width: 200px;
   /* min-width: 200px; */
   height: 100%;
-  /* float: left; */
   display: flex;
-  /* align-content: middle; */
-
 }
 
 footer .listening {
@@ -471,7 +419,6 @@ footer .listening {
 footer .listening .album-picture {
   width: 50px;
   height: 100%;
-  /* background-color: red; */
   display: flex;
 }
 
@@ -489,7 +436,6 @@ footer .listening .album-picture img {
 }
 
 footer .listening .listening-right .album-name {
-  /* height: 70px; */
   font-size: 0.5rem;
   color: white;
   align-self: center;
@@ -519,7 +465,6 @@ footer .play-bar {
   width: calc(100% - 400px);
   min-width: 164px;
   height: 100%;
-  /* float: left; */
   display: flex;
   flex-direction: column;
 }
@@ -544,7 +489,6 @@ footer  i {
 
 footer .play-bar .controller i:nth-child(3) {
   font-size: 30px;
-  /* width: 53px; */
   text-align: center;
   /* border: 1px solid red; */
 }
@@ -557,16 +501,6 @@ footer .play-bar .timeline-box {
   display: flex;
   align-content: center;
 }
-/*
-footer .play-bar .timeline-box .timeline {
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #5a5a5a;
-  align-self: center;
-  position: relative;
-  margin: 0 20px;
-} */
 
 footer .timeline {
   width: 100%;
@@ -577,7 +511,6 @@ footer .timeline {
   position: relative;
   margin: 0 20px;
 }
-
 
 footer .fill {
   width: 20%;
@@ -621,14 +554,6 @@ footer .play-bar .timeline-box .time-left, footer .play-bar .timeline-box .time-
 footer .play-bar .timeline-box span {
   font-size: 0.8em;
 }
-
-
-
-
-
-
-
-
 
 
 
