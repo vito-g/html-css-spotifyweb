@@ -92,13 +92,9 @@ aside .explore {
 }
 
 aside .explore > * {
-  /* border: 1px solid white; */
-  flex-grow: 1;
-}
-
-aside .explore > * {
   display: flex;
   cursor: pointer;
+  flex-grow: 1;
 }
 
 aside .explore .home .icon {
@@ -130,7 +126,6 @@ aside .explore .search .icon-name, aside .explore .library .icon-name {
   font-size: 0.7em;
   color: #7d7f84;
 }
-
 
 aside .explore>div:hover .icon-name {
   color: #d2d2d2;
@@ -226,6 +221,7 @@ aside .aside-bottom .install {
 
 aside .aside-bottom .install:hover .icon, aside .aside-bottom .install:hover .icon-name {
   color: white;
+  cursor: pointer;
 }
 
 aside .aside-bottom .install, aside .aside-bottom .john-doe {
@@ -403,6 +399,7 @@ li.underline hr {
 .item .layover .play>img {
   width: 40%;
   margin: auto;
+  cursor: pointer;
 }
 
 .item:hover .play {
@@ -473,6 +470,7 @@ footer .listening .listening-right .album-name {
 footer .listening .listening-right .album-name .hit-name {
   font-size: 0.8em;
   color: #7d7f84;
+  cursor: pointer;
 }
 
 footer .listening .listening-right .album-name .hit-name:hover {
@@ -585,10 +583,7 @@ footer .play-bar .timeline-box span {
 }
 
 
-
-
 /*-------- MEDIA QUERY --------*/
-
 
   /* md */
   @media screen and (max-width: 1200px) {
