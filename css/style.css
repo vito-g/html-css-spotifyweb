@@ -27,10 +27,6 @@ a {
 
 /* END Class Utility */
 
-body {
-  /* font-family: 'Noto Sans JP', sans-serif; */
-}
-
 .wrap {
   height: 100vh;
   width: 100vw;
@@ -45,21 +41,13 @@ body {
 
 aside {
   width: 200px;
-  /* min-width: 200px; */
   height: calc(100vh - 70px);
   background-color: black;
-  /* border: 1px solid white; */
   float: left;
   position: relative;
-  /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-aside .aside-top {
-  /* background-color: grey; */
-  /* border: 1px solid orange; */
 }
 
 .logotype {
@@ -88,7 +76,6 @@ aside .explore {
   display: flex;
   flex-direction: column;
   height: 100px;
-  /* border: 1px solid white; */
 }
 
 aside .explore > * {
@@ -116,7 +103,6 @@ aside .icon-name {
 aside .explore .home .icon-name {
   align-self: center;
   font-size: 0.7em;
-  /* color: #7d7f84; */
   color: #d2d2d2;
   font-weight: bold;
 }
@@ -136,7 +122,6 @@ aside .explore .home:hover .icon-name {
 }
 
 aside .explore .icon img {
-  /* border: 1px solid white; */
   width: 20px;
   margin: auto;
 }
@@ -156,7 +141,6 @@ aside .playlist-container .playlist-creator {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  /* border: 1px solid blue; */
 }
 
 aside .playlist-container .playlist-creator:hover .add-playlist {
@@ -185,10 +169,8 @@ aside .playlist-container .playlist-creator .add-playlist {
 aside .playlist-container .playlist-created {
   overflow-y: scroll;
   height: 30vh;
-  /* min-height: 10vh; */
   font-size: 0.7em;
   color: #7d7f84;
-  /* border: 1px solid red; */
 }
 
 aside .playlist-container .playlist-created ul li {
@@ -202,8 +184,6 @@ aside .playlist-container .playlist-created ul li:hover {
 
 aside .aside-bottom {
   padding: 0 11px;
-  /* border: 1px solid yellow; */
-  /* background-color: red; */
   height: 60px;
   display: flex;
   flex-direction: column;
@@ -211,8 +191,6 @@ aside .aside-bottom {
 
 aside .aside-bottom > * {
   flex-grow: 1;
-  /* border: 1px solid white; */
-  /* background-color: red; */
 }
 
 aside .aside-bottom .install {
@@ -246,11 +224,6 @@ aside .aside-bottom .install .icon-name {
   margin-left: 5px;
 }
 
-aside .aside-bottom .john-doe {
-  /* color: white; */
-  /* font-size: 0.7rem; */
-}
-
 aside .aside-bottom .john-doe .icon-name {
   color: white;
   font-size: 0.7rem;
@@ -261,7 +234,6 @@ aside .aside-bottom .john-doe .icon-name {
 
 .upgrade {
   width: calc(100% - 200px);
-  /* background-color: #080B12; */
   background-color: rgba(22, 22, 22, 0.7);
   position: fixed;
   right: 0;
@@ -294,7 +266,6 @@ aside .aside-bottom .john-doe .icon-name {
   width: calc(100% - 200px);
   background-color: #141922;
   overflow-y: scroll;
-  /* border: 1px solid red; */
   float: left;
 }
 
@@ -304,13 +275,11 @@ aside .aside-bottom .john-doe .icon-name {
   text-align: center;
   flex-wrap: wrap;
   text-transform: uppercase;
-  /* font-size: 1rem; */
   color: #7d7f84;
 }
 
 .container .row.menu ul li {
   display: inline-block;
-  /* color: white; */
   padding: 10px 5px;
   font-weight: bold;
   font-size: 0.55rem;
@@ -330,7 +299,6 @@ li.underline hr {
 
 .container .row {
   display: flex;
-  /* border: 2px solid blue; */
   flex-wrap: wrap;
   align-content: flex-start;
   color: white;
@@ -339,7 +307,6 @@ li.underline hr {
 
 .container .row .item-box {
   width: calc(100% / 6 - 10px);
-  /* border: 1px solid white; */
   margin: 5px;
   text-align: center;
 }
@@ -350,7 +317,6 @@ li.underline hr {
 
 .row .title {
   width: 100%;
-  /* color: white; */
   font-size: 1.5em;
   font-weight: bold;
   padding-left: 5px;
@@ -362,14 +328,12 @@ li.underline hr {
   font-weight: bold;
   width: 100%;
   font-size: 0.7rem;
-  /* border: 1px solid red; */
 }
 
 .row .subtitle {
   font-size: 0.6rem;
   padding: 5px 0;
   color: #7d7f84;
-  /* border: 1px solid green; */
 }
 
 .item > img {
@@ -409,11 +373,8 @@ li.underline hr {
 
 .item.circle img, .item.circle .layover {
   border-radius: 50%;
-  /* border: 1px solid white; */
 }
-
 /* END Inserimento del layover */
-
 
 .item.circle img {
   vertical-align: middle;
@@ -424,15 +385,12 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
-  /* border: 1px solid red; */
   width: 100%;
   display: flex;
 }
 
 footer .listening, footer .volume {
-  /* border: 1px solid yellow; */
   width: 200px;
-  /* min-width: 200px; */
   height: 100%;
   display: flex;
 }
@@ -456,7 +414,6 @@ footer .listening .album-picture img {
 .listening-right {
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid white; */
   width: calc(100% - 50px);
   padding: 4px;
 }
@@ -465,7 +422,6 @@ footer .listening .listening-right .album-name {
   font-size: 0.5rem;
   color: white;
   align-self: center;
-  /* border: 1px solid red; */
 }
 
 footer .listening .listening-right .album-name .hit-name {
@@ -488,7 +444,6 @@ footer .listening .listening-right .action i:hover {
 }
 
 footer .play-bar {
-  /* border: 1px solid red; */
   width: calc(100% - 400px);
   min-width: 164px;
   height: 100%;
@@ -497,7 +452,6 @@ footer .play-bar {
 }
 
 footer .play-bar .controller, footer .play-bar .timeline-box {
-  /* border: 1px solid grey; */
   height: 50%;
   display: flex;
   width: 60%;
@@ -510,14 +464,12 @@ footer  i {
   align-self: center;
   margin: 0 10px;
   color: white;
-  /* border: 1px solid red; */
   cursor: pointer;
 }
 
 footer .play-bar .controller i:nth-child(3) {
   font-size: 30px;
   text-align: center;
-  /* border: 1px solid red; */
 }
 
 footer .play-bar .controller i:nth-child(3):hover {
@@ -575,14 +527,14 @@ footer .volume .timeline {
 
 footer .play-bar .timeline-box .time-left, footer .play-bar .timeline-box .time-right {
   align-self: center;
-  font-size: 0.8em;
+  font-size: 0.6em;
   color: #c1c1c1;
+  font-weight: bold;
 }
 
 footer .play-bar .timeline-box span {
   font-size: 0.8em;
 }
-
 
 /*-------- MEDIA QUERY --------*/
 
@@ -657,10 +609,6 @@ footer .play-bar .timeline-box span {
       display: none;
     }
 
-    /* aside .playlist-container {
-      display: none;
-    } */
-
     aside .aside-bottom .install {
       border: none;
     }
@@ -668,17 +616,10 @@ footer .play-bar .timeline-box span {
     .upgrade {
       width: calc(100% - 42px);
       left: 42px;
-      /* border: 1px solid red; */
     }
 
     .container {
-      /* margin-top: 70px;
-      height: calc(100vh - 140px); */
       width: calc(100% - 42px);
-      /* background-color: #141922;
-      overflow-y: scroll; */
-      /* border: 1px solid red; */
-      /* float: left; */
     }
 
   }
