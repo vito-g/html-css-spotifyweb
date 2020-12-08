@@ -553,6 +553,7 @@ footer .fill {
 
 footer .circle-cursor {
   width: 15px;
+  min-width: 15px;
   height: 15px;
   background-color: #c1c1c1;
   border-radius: 50%;
