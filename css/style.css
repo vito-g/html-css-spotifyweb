@@ -597,7 +597,7 @@ footer .play-bar .timeline-box span {
    }
 
     .container .row {
-        margin-bottom: 15px;
+      margin-bottom: 15px;
     }
 
     .row .item-box .playlist-tag {
@@ -610,12 +610,12 @@ footer .play-bar .timeline-box span {
   /* sm */
   @media screen and (max-width: 991px) {
 
-     .container .row .item-box {
-       width: calc(100% / 2 - 10px);
+    .container .row .item-box {
+      width: calc(100% / 2 - 10px);
     }
 
     .container .row {
-        margin-bottom: 10px;
+      margin-bottom: 10px;
     }
 
     .row .item-box .playlist-tag {
@@ -628,12 +628,12 @@ footer .play-bar .timeline-box span {
   /* xs */
   @media screen and (max-width: 767px) {
 
-     .container .row .item-box {
-       width: calc(100% / 2 - 10px);
+    .container .row .item-box {
+      width: calc(100% / 2 - 10px);
     }
 
     .container .row {
-        margin-bottom: 10px;
+      margin-bottom: 10px;
     }
 
     .row .item-box .playlist-tag {
